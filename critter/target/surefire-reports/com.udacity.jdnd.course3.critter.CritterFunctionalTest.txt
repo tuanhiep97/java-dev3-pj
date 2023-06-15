@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: com.udacity.jdnd.course3.critter.CritterFunctionalTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 8.44 s <<< FAILURE! - in com.udacity.jdnd.course3.critter.CritterFunctionalTest
+testFindOwnerByPet  Time elapsed: 0.359 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testFindOwnerByPet(CritterFunctionalTest.java:111)
+
+testFindEmployeesByServiceAndTime  Time elapsed: 0.334 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testFindEmployeesByServiceAndTime(CritterFunctionalTest.java:149)
+
+testAddPetsToCustomer  Time elapsed: 0.233 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testAddPetsToCustomer(CritterFunctionalTest.java:68)
+
+testCreateCustomer  Time elapsed: 0.156 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testCreateCustomer(CritterFunctionalTest.java:48)
+
+testSchedulePetsForServiceWithEmployee  Time elapsed: 0.169 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testSchedulePetsForServiceWithEmployee(CritterFunctionalTest.java:176)
+
+testFindPetsByOwner  Time elapsed: 0.185 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testFindPetsByOwner(CritterFunctionalTest.java:93)
+
+testCreateEmployee  Time elapsed: 0.147 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testCreateEmployee(CritterFunctionalTest.java:58)
+
+testChangeEmployeeAvailability  Time elapsed: 0.169 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testChangeEmployeeAvailability(CritterFunctionalTest.java:125)
+
+testFindScheduleByEntities  Time elapsed: 0.147 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.lambda$populateSchedule$1(CritterFunctionalTest.java:286)
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.populateSchedule(CritterFunctionalTest.java:287)
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testFindScheduleByEntities(CritterFunctionalTest.java:198)
+
